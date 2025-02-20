@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'times new roman', sans-serif;
+    font-family: 'Georgia', sans-serif;
     background-color: #f0f0f0;
     color: #333;
     display: flex;
@@ -41,7 +41,7 @@ header .logo .logo-circle {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: rgb(205, 45, 149);
+    background-color: white;
     color: #1c511e;
     display: flex;
     align-items: center;
@@ -81,7 +81,17 @@ main {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 1em 0;
+    margin: 2em 0; /* Added margin at the top and bottom */
+}
+
+main section .intro {
+    margin-bottom: 2em; /* Added margin below the introductory paragraph */
+    font-size: 1.2em;
+    line-height: 1.6;
+    background-color: #e8f5e9;
+    padding: 1em;
+    border-radius: 8px;
+    border-left: 5px solid #1c511e;
 }
 
 .grid-container {
@@ -113,6 +123,7 @@ main {
 .content-box figcaption {
     text-align: center;
     margin-top: 0.5em;
+    font-style: italic;
 }
 
 .content-box p {
